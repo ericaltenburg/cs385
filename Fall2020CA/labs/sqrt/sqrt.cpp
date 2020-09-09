@@ -11,7 +11,6 @@
 #include <limits>
 #include <cmath>
 #include <sstream>
-
 using namespace std;
 
 const double EPSILON = 1e-7;
@@ -31,6 +30,8 @@ double sqrt(double num, double epsilon) {
     } while (abs(last_guess - next_guess) > epsilon);
     return next_guess;
 }
+
+
 
 int main(int argc, char* const argv[]) {
     if (argc == 1 || argc > 3) {
