@@ -38,7 +38,7 @@ bool all_unique_letters(const string &s) {
 	for (auto const& c : s) { // travels through the string letter by letter like in above method
 		int diff = c - 'a';
 
-		if (((x >> diff) & 1) != 0) { // the letter has been seen before
+		if (((x >> diff) & 1) > 0) { // the letter has been seen before
 			return false;
 		} else { // the letter hasn't been seen before so change x to show the effects of most recent letter
 			x = x | (1 << diff);

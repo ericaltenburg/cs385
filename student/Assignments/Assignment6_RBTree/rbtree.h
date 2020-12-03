@@ -303,7 +303,10 @@ public:
      * Returns the diameter of the red-black tree.
      */
     size_t diameter() const {
-        return diameter(root_);
+        if (root_ == NULL) {
+        	return 0;
+        }
+        return 1 + diameter(root_);
     }
 
     /**

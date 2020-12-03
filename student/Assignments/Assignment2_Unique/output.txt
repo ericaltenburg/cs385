@@ -1,0 +1,23 @@
+Compiling unique.cpp...done
+
+Running test 1...success
+Running test 2...success
+Running test 3...success
+Running test 4...success
+Running test 5...success
+Running test 6...success
+Running test 7...success
+Running test 8...success
+Running test 9...success
+Running test 10...success
+Running test 11...success
+Running test 12...success
+Running test 13...success
+Running test 14...success
+Running test 15...success
+
+Total tests run: 15
+Number correct : 15
+Percent correct: 100.00
+
+Cleaning project...done

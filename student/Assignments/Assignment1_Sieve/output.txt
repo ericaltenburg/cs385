@@ -1,0 +1,5 @@
+**************************** Sieve of Eratosthenes ****************************
+Search for primes up to: 
+Number of primes found: 1
+Primes up to 2:
+2

@@ -1,0 +1,1 @@
+Enter sequence of integers, each followed by a space: Number of inversions: 2

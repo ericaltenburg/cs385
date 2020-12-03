@@ -58,6 +58,7 @@ string WJP(int capA, int capB, int capC, int goalA, int goalB, int goalC) {
 
 	while(!BFSvisited.empty()) { // So long as the queue is not empty, continue BFS algorithm
 		current = BFSvisited.front(); // Takes on the values of the next state in line in queue // This is where it gains the directions
+		BFSvisited.pop(); // Pops what ever is on top of queue
 
 		visited[current.a][current.b] = true; // Visited the current location in the BFS array
 
@@ -257,7 +258,7 @@ string WJP(int capA, int capB, int capC, int goalA, int goalB, int goalC) {
 			BFSvisited.push(temp);
 		}
 
-		BFSvisited.pop(); // Pops what ever is on top of queue
+		
 	}
 
 	string solution; // What's going to be returned
