@@ -199,6 +199,9 @@ void display_table(long** const matrix, const string &label,
 
     int max_cell_width = use_letters ? len(max_val) :
             len(max(static_cast<long>(num_vertices), max_val));
+            cout << len(max_val) << endl;
+            cout << len(max(static_cast<long>(num_vertices), max_val)) << endl;
+            cout << max_cell_width << endl;
     cout << ' ';
     for (int j = 0; j < num_vertices; j++) {
         cout << setw(max_cell_width + 1) << static_cast<char>(j + 'A');
